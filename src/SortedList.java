@@ -13,7 +13,6 @@ public class SortedList<T extends Comparable<T>> {
     Node head;
 
     public void insert(T value, BiFunction<T,T, Boolean> func){
-
         if (head == null)
         {
             head = new Node(value);
